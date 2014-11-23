@@ -1,13 +1,10 @@
 Getting and Cleaning Data - Course Project
 =================================================
-An [example][id]. Then, anywhere
-else in the doc, define the link:
 
-   [id]: http://example.com/  "Title"
-    
 Course Project for the [Getting and Cleaning Data course on Coursera](https://www.coursera.org/course/getdata), November 2014 edition.
 
 ## Project Description
+----------------------
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit:
 
@@ -59,5 +56,7 @@ View(data)
 References
 ----------
 
+### <a name="activity-tracking"></a>
 1. http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/
+### <a name="davids-project-faq"></a>
 2. https://class.coursera.org/getdata-009/forum/thread?thread_id=58
