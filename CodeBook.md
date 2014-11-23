@@ -81,23 +81,29 @@ No unit of measures is reported as all features were normalized and bounded with
 Data transformation
 -------------------
 
-The raw data sets are processed with run_analisys.R script to create a tidy data set.
+The raw data sets are processed with run_analisys.R script to create a tidy data set. The process followed to generated this new tidy data set is described in the following sections.
 
-###Merges the training and the test sets 
+###Step 1: Merges the training and the test sets 
 
+The test and train data are bound into an unique data set. The resulting data set contains 10299 observations with 563 variables
 
-###Extracts only the measurements on the mean and standard deviation
+###Step 2: Extracts only the measurements on the mean and standard deviation
 
-###Uses descriptive activity names
+From the data set obtained from the previous step, only those columns corresponding to mean and standard deviation measurements, the subject and the activities are selected. The resulting data set contains 10299 observations with 68 variables.
 
-###Appropriately labels the data set
+###Step 3: Uses descriptive activity names
 
+The activity numeric labels are replaced using the descriptive activity names defined in the activiy_labels.txt file.
 
-###Creates a tidy data set with the average of each variable
+###Step 4: Appropriately labels the data set
 
-From the data set in the previous step, ca tidy data set is created, with the average of each variable for each activity and each subject.
+The columns names are replaced from undrescriptive names as V1 to some more descriptive, using the feature labels defined in the features.txt file.
 
-The tidy data set contains 180 observations with 68 variables divided in:
+###Step 5: Creates a tidy data set with the average of each variable
+
+From the data set in the previous step, a tidy data set is created, with the average of each variable for each activity and each subject.
+
+The tidy data set contains __180 observations with 68 variables__ divided in:
 
 * _subject_: Identifier of the subject who carried out the experiment. Values from 1 to 30.
 * _activity_: Activity label. Values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
