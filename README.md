@@ -1,9 +1,9 @@
 Getting and Cleaning Data - Course Project
 =================================================
+An [example][id]. Then, anywhere
+else in the doc, define the link:
 
-data <- read.table(file_path, header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
-    View(data)
-    
+   [id]: http://example.com/  "Title"
     
 Course Project for the [Getting and Cleaning Data course on Coursera](https://www.coursera.org/course/getdata), November 2014 edition.
 
