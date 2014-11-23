@@ -29,9 +29,9 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Repository content
 
-* __README.md__: current file
-* __CodeBook.md__: 
-* __run_analysis.R__: 
+* __README.md__: current file.
+* __CodeBook.md__: information about the original untidy data and the tidy data set.
+* __run_analysis.R__: R script that manipulate and transform the original data set into a tidy one.
 
 ## Reproducible research
 
@@ -41,7 +41,7 @@ If you want to generate your own tidy data set using the provided _run_analysis.
 2. Unzip raw data and copy the directory `UCI HAR Dataset` to your working directory.
 3. Clone this repository in your computer: https://github.com/ccarmonab/coursera-Getting_and_Cleaning_Data-Course_Project
 4. Copy the run_analysis.R file into your working directory
-4. source run_analisys.R script: `source('run_analysis.R')`
+5. Source run_analisys.R script: `source('run_analysis.R')`
 
 It will generate a file named tidy_data.txt in the root of your working directory. If you want to read it and looking it in R, the command is [[2](#references)]: 
 
