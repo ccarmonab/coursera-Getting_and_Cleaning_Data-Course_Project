@@ -1,4 +1,5 @@
 ###############################################################################
+##  
 ##  Getting and Cleaning Data - Course Project
 ##  November 2014
 ##
@@ -19,6 +20,7 @@
 ##
 ## Data must be unzipped in your workind directory, in a directory named
 ## "UCI HAR Dataset"
+##
 ###############################################################################
 
 
