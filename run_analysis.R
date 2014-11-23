@@ -17,7 +17,7 @@
 ## Original accelerometers data can be obtained from:
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ##
-## Data must be unzipped in your workind directory, in a directory called
+## Data must be unzipped in your workind directory, in a directory named
 ## "UCI HAR Dataset"
 ###############################################################################
 
@@ -87,7 +87,7 @@ names(sensor_data_mean_std) <- features[columns_mean_std]
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the 
 ##    average of each variable for each activity and each subject
-tidy.data <- group_by(sensor_data_mean_std, subject, activity) %>% summarise_each(funs(mean))
+tidy_data <- group_by(sensor_data_mean_std, subject, activity) %>% summarise_each(funs(mean))
 
 # Finally, write that data out to a file
-write.table(tidy.data, "tidy_data.txt", row.name=FALSE)
+write.table(tidy_data, "tidy_data.txt", row.name=FALSE)
