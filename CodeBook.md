@@ -83,9 +83,46 @@ Data transformation
 
 The raw data sets are processed with run_analisys.R script to create a tidy data set.
 
+###Merges the training and the test sets 
+
+
+###Extracts only the measurements on the mean and standard deviation
+
+###Uses descriptive activity names
+
+###Appropriately labels the data set
+
+
+###Creates a tidy data set with the average of each variable
+
+From the data set in the previous step, ca tidy data set is created, with the average of each variable for each activity and each subject.
 
 The tidy data set contains 180 observations with 68 variables divided in:
 
+* _subject_: Identifier of the subject who carried out the experiment. Values from 1 to 30.
+* _activity_: Activity label. Values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
+
+For each of the next variables, for each of the 3 directions (X,Y,Z), a columns exists with its mean, and another one for its standard deviation, for each activity and each subject.
+* _tBodyAcc_  
+* _tGravityAcc_
+* _tBodyAccJerk_
+* _tBodyGyro_
+* _tBodyGyroJerk_
+* _fBodyAcc_
+* _fBodyAccJerk_
+* _fBodyGyro_
+
+Finally, for each each of the next variables, a columns exists with its mean, and another one for its standard deviation, for each activity and each subject
+
+* _tBodyAccMag_
+* _tGravityAccMag_
+* _tBodyAccJerkMag_
+* _tBodyGyroMag_
+* _tBodyGyroJerkMag_
+* _fBodyAccMag_
+* _fBodyAccJerkMag_
+* _fBodyGyroMag_
+* _fBodyGyroJerkMag_
 
 References
 ----------
