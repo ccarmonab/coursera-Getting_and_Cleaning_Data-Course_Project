@@ -1,5 +1,5 @@
 Code Book
-=================================================
+=========
 
 Code book for the Course Project for the [Getting and Cleaning Data course on Coursera](https://www.coursera.org/course/getdata), November 2014 edition.
 
@@ -76,17 +76,12 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-
-
-
-No unit of measures is reported as all features were normalized and bounded
-within [-1,1].
+No unit of measures is reported as all features were normalized and bounded within [-1,1].
 
 Data transformation
 -------------------
 
-The raw data sets are processed with run_analisys.R script to create a tidy data
-set.
+The raw data sets are processed with run_analisys.R script to create a tidy data set.
 
 
 The tidy data set contains 180 observations with 68 variables divided in:
